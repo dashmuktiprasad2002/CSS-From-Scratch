@@ -1,0 +1,47 @@
+/* universal selecetor */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* element selector */
+body{
+    background-color: rgb(36, 35, 35);
+}
+p{
+    color: white;
+}
+
+/* id selector */
+#head1{
+    color: cyan;
+}
+#head2{
+    color: coral;
+}
+
+/* class selector */
+.para{
+    color: white;
+}  
+
+/* child selector */
+div>button{
+    background-color: rgb(96, 206, 214);
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 5px;
+    margin: 20px;
+}
+
+/* descendent selector */
+div h2 {
+    color: yellow;
+}
+
+/* pseudo selector */
+button:hover {
+    background-color: rgb(48, 2, 49);
+    color: white;
+}
