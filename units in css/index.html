@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>em units in css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="emunit">
+        <h1 id="heading">em Units in css</h1>
+        <p class="para">The em unit is relative to the font size of the parent element. So, if the parent element has a font size of 16px, then 2.5em would result in 40px.</p>
+        <button>Click Me</button>
+    </div>
+    <div id="remunit">
+        <h2 id="remheading">rem unit in css</h2>
+        <p class="rempara">The rem unit is relative to the font size of the root HTML element (<html>).
+        Unlike em, which is relative to the font-size of its parent element, rem always refers to the font-size of the <html>element, regardless of its position in the document tree. This makes rem very useful for creating scalable and responsive designs. By changing the font-size of the <html> element, all elements sized with rem units will scale proportionally throughout the entire page
+        </p>
+    </div>
+</body>
+</html>
