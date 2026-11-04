@@ -29,3 +29,24 @@ html,body{
     padding: 2rem;
     margin: 1.5em;
 }
+.spin{
+    background-color: darkgreen;
+    color: white;
+    font-size: 1.6em;
+    border: 2px solid white;
+    margin:0.9em;
+    padding: 0.7em;
+    display: inline-block;
+    /* visibility: hidden; */
+}
+a{
+    color: white;
+    background-color: firebrick;
+    font-size: 1.5em;
+    border-radius: 15px;
+    text-align: center;
+    padding: 0.7em;
+    display: inline-block;
+    /* display: none; */
+    width: 7em;
+}
