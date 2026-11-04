@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: rgb(59, 56, 56);
+    font-size: 12px;
+}
+#block{
+    height:50vh;
+    width: 50vw;
+    background-color: brown;
+    color: white;
+    display: block;
+    border: 2px solid white;
+    font-size: 1.5em;
+    padding:2rem;
+    margin:1.5em;
+}
+#headsection{
+    height: 50vh;
+    width: 50vw;
+    background-color: rgb(90, 6, 90);
+    color: white;
+    display: block;
+    border: 2px solid white;
+    font-size:1.5em;
+    padding: 2rem;
+    margin: 1.5em;
+}
