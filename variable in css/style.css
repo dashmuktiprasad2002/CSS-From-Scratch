@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+}
+#parent{
+    /* display: inline-block; */
+    display: flex;
+    gap: 10px;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+}
+#firstcard{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUg0LevZrshLyjSxfFgiCvsYzFsruvUmRQUaFf-ehWDg&s=10");
+    height: 60vh;
+    width: 30vw;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    margin: 20px 30px;
+    border: 2px solid white;
+    /* display: inline-block; */
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+#secondcard {
+    background-image: url("https://assets.2k.com/1a6ngf98576c/4QpUg84jJmQxFHD1nnYSMD/25c3a52aaad85eeb70541221090da636/WWE24-WEB-HOMEPAGE-RETAIL-FOB-DLX-425X535.jpg");
+    height: 60vh;
+    width: 30vw;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    margin: 20px 30px;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    /* display: inline-block; */
+    flex-shrink: 0;
+}
+#thirdcard {
+    background-image: url("https://assets.2k.com/1a6ngf98576c/1RZgDEYmdJY6DBiD8ldjZC/b3b012a716e8141034cfbe127056bd6a/WWE26-425x535-STANDARD.jpg");
+    height: 60vh;
+    width: 30vw;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    margin: 20px 30px;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    /* display: inline-block; */
+    flex-shrink: 0;
+}
+#fourthcard {
+    background-image: url("https://preview.redd.it/wwe-2k21-22-v0-5eylyaufxm861.jpg?width=796&format=pjpg&auto=webp&s=57de2dfc809e7932fb9541ed93dd4db45d5cb62b");
+    height: 60vh;
+    width: 30vw;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    margin: 20px 30px;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    /* display: inline-block; */
+    flex-shrink: 0;
+}
+#fifthcard {
+    background-image: url("https://rukminim3.flixcart.com/image/480/480/xif0q/physical-game/r/p/k/no-deluxe-edition-wwe-2k22-full-game-microsoft-windows-original-imagkyrhrsprzpff.jpeg?q=90");
+    height: 60vh;
+    width: 30vw;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    margin: 20px 30px;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    /* display: inline-block; */
+    flex-shrink: 0;
+}
+#sixcard {
+    background-image: url("https://assets.2k.com/1a6ngf98576c/7y1nVVDuxTlk06mZILbwSL/605f874a4e3f20178b7662e7ec6bece3/WWE23-WEBSITE-MODULE3-SKU-STD-WWE23.jpg");
+    height: 60vh;
+    width: 30vw;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    margin: 20px 30px;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    /* display: inline-block; */
+    flex-shrink: 0;
+}
