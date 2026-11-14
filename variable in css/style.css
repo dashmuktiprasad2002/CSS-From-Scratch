@@ -7,15 +7,23 @@ html,body{
     height: 100%;
     width: 100%;
 }
+:root{
+    --color: rgb(5, 5, 67);
+    --seccolor: rgb(117, 6, 93);
+    --defpad:24px;
+
+}
 body{
     background-color: black;
+    background-color: var(--color);
 }
 #parent{
     /* display: inline-block; */
     display: flex;
     gap: 10px;
-    padding: 10px 20px;
+    padding: var(--defpad);
     flex-wrap: wrap;
+    
 }
 #firstcard{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUg0LevZrshLyjSxfFgiCvsYzFsruvUmRQUaFf-ehWDg&s=10");
